@@ -88,32 +88,92 @@ footer {
     font-size: 24px;
 }
 
-.products {
-    padding-top: 30px;
-    font-size: 40px;
+.main-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.descr {
+main {
+    margin: 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1700px;
+}
+
+.btn {
+    color: #fff;
+    padding: 20px;
+    background-color: #000000;
+    border: #ffffff solid 3px;
+    border-radius: 20px;
+    width: 160px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+p, h2 {
+    padding: 10px;
     font-size: 36px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    height: 630px;
-    color: #000000;
-    margin-top: 40px;
 }
 
-.descr ul {
+p :nth-child(1) {
+    font-size: 24px;
+}
+
+.logo-size {
+    margin-left: 50px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
+table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 3px black solid;
+    padding: 20px;
+    font-size: 20px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1700px;
+    text-align: center;
+} 
+
+article {
+    border: solid 2px black;
+    border-radius: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 40px;
+    background-color: #000000;
+    color: #fff;
+}
+
+#info  {
+    font-size: 48px;
+}
 a {
     text-decoration: none;
 }
@@ -143,7 +203,6 @@ h2 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    max-width: 1400px;
 }
 
 .shoes-container .nike {
@@ -155,6 +214,9 @@ h2 {
 }
 
 .shoes-box {
+    width: 413px;
+    height: 355px;
+    background: linear-gradient(265.4deg, #000000 9.42%, #494949 95.79%);
     border: #000000 solid 4px;
     border-radius: 10px;
     margin: 41px 11px ;
@@ -167,30 +229,6 @@ h2 {
     transform: scale(1.2);
 }
 
-.shoes-container .Under-Armour {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.shoes-container .Puma {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.shoes-container .Adidas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
 .shoes-box img {
     width: 404px;
     height: 231px;
@@ -201,7 +239,7 @@ h2 {
     color: #fff;
     background: linear-gradient(265.4deg, #000000 9.42%, #494949 95.79%);
     font-size: 32px;
-    height: 84px;
+    height: 72px;
     border-end-end-radius: 5px;
     border-end-start-radius: 5px;
 }
@@ -213,4 +251,16 @@ h2 {
     text-align: right;
     margin-right: 15px;
     margin-bottom: 10px;
+}
+
+#lewo {
+    margin-right: 40px;
+    width: 75px;
+    height: 75px;
+}
+
+#prawo {
+    margin-left: 40px;
+    width: 75px;
+    height: 75px;
 }
