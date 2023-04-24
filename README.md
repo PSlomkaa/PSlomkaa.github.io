@@ -1,4 +1,4 @@
-# Figma-strona-buty
+# Piotr Słomka
 
 # Jest to strona sklepu internetowego, który posiada w swojj ofercie buty do koszykówki
 
